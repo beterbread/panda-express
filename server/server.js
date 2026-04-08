@@ -9,7 +9,10 @@ import { OAuth2Client } from "google-auth-library";
 import bcrypt from "bcrypt";
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "https://panda-express-gamma.vercel.app",
+  credentials: true,
+}));
 app.use(express.json());
 
 // PSQL database connection config
