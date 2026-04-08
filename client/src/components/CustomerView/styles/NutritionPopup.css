@@ -1,0 +1,86 @@
+/* dark for the background */
+.nutrition-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /*grey out the background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* the actual popup  */
+.nutrition-popup {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  border: 4px solid black;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  position: relative;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* close button */
+.nutrition-popup button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  background-color: #d63d16;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nutrition-popup ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+/* nutrition list  */
+.nutrition-popup li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+/* heading */
+.nutrition-popup h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.nutrition-popup button:hover {
+  /*hover effects on close button for clarity*/
+  background-color: #000000;
+}
+
+.nutrition-popup .allergens {
+  text-align: center; /* allergens separate to allow centered */
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: normal;
+}

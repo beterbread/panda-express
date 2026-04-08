@@ -1,0 +1,328 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* default buttons */
+.default-button-black {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  height: 5rem;
+}
+
+.default-button-black:hover {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d1282e;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  height: 5rem;
+}
+
+.default-button-red {
+  font-weight: bold;
+  background-color: #d1282e;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  height: 5rem;
+}
+
+.default-button-red:hover {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  height: 5rem;
+}
+
+.smaller-buttons-black {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  margin: 0.1rem;
+  border-radius: 5px;
+  border: none;
+  padding: .5rem;
+}
+
+.smaller-buttons-black:hover {
+  text-transform: uppercase;
+  background-color: #d82c2c;
+  color: white;
+  margin: 0.1rem;
+  border-radius: 5px;
+  border: none;
+  padding: .5rem;
+}
+
+.back-button {
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+/* default texts */
+.pageTitle {
+  font-size: 3rem;
+  margin: auto;
+  align-self: center;
+  /* background-color: red; */
+  padding: 30px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  /* padding-bottom: 1rem; */
+  margin: auto;
+  padding: 1rem;
+}
+
+.smaller-subTitle {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.white-text {
+  color: white;
+}
+
+/* containers */
+.container {
+  /* background-color: forestgreen; */
+  height: 100;
+  width: 50%;
+  margin: 1rem;
+  /* margin: auto; */
+}
+
+.white-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.red-container {
+  display: flex;
+  flex-direction: column;
+  /* margin: 10rem; */
+  padding: 0.5rem;
+  background-color: #d1282e;
+  border-radius: 30px;
+}
+
+.text-container {
+  /* background-color: rebeccapurple; */
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* tables */
+
+.table-container {
+  /* border: solid black 2px; */
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.table-header {
+  background-color: #d1282e;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* margin: 1rem; */
+}
+
+.table-row {
+  border: solid black 1px;
+  background-color: white;
+}
+
+/* Loading screen */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.loading-screen p {
+  margin-top: 20px;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3; /* Light gray border */
+  border-top: 4px solid #3498db; /* Blue color for the spinner */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

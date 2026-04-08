@@ -1,0 +1,51 @@
+.POS-order-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.POS-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    padding-top: 2rem;
+}
+
+#POS-red-container {
+    width: 100%;
+    min-height: 20rem;
+}
+
+.POS-white-container {
+    width: 100%;
+    background-color: white;
+}
+
+#POS-checkout-button {
+    margin: auto;
+}
+
+.POS-payment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.POS-order {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    background-color: white;
+    margin: 0.25rem;
+    padding: 1rem;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.POS-order-text p {
+    text-align: left;
+}

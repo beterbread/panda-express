@@ -1,0 +1,25 @@
+item_id,item_category,item_name,extra_charge,calories,total_fat,cholesterol,sodium,total_carb,protein,serving_size
+1,Side,Chow Mein,0,500,23,0,980,61,18,11
+2,Side,Fried Rice,0,530,16,150,820,82,12,11
+3,Side,Steamed Rice,0,380,0,0,0,86,7,11
+4,Side,Super Greens,0,70,0.5,0,530,13,4,10
+5,Entree,Beijing Beef,0,690,40,65,890,57,26,5.6
+6,Entree,Broccoli Beef,0,130,4,15,710,13,10,5.44
+7,Entree,Black Pepper Sirloin Steak,0,180,2,40,750,10,19,5.1
+8,Entree,Black Pepper Chicken,0,250,14,120,930,12,19,6.3
+9,Entree,Grilled Teriyaki Chicken,0,299,12.8,110,530.1,8.2,36.1,6
+10,Entree,Honey Sesame Chicken Breast,0,420,22,45,480,40,16,5.3
+11,Entree,Honey Walnut Shrimp,1.5,370,23,110,470,27,14,4.39
+12,Entree,Kung Pao Chicken,0,280,18,105,800,12,18,6.74
+13,Entree,Mushroom Chicken,0,220,13,100,760,9,17,5.7
+14,Entree,The Original Orange Chicken,0,420,21,95,620,43,15,5.92
+15,Entree,String Bean Chicken Breast,0,170,7,35,740,13,15,5.6
+16,Entree,Sweet Fire Chicken Breast,0,440,18,45,370,53,17,5.8
+17,Appetizers,Chicken Eggroll,0,200,12,20,390,16,8,2.75
+18,Appetizers,Cream Cheese Rangoon,0,190,8,180,180,24,5,2.4
+19,Appetizers,Vegetable Spring Roll,0,160,7,0,540,22,4,3.5
+20,Appetizers,Apple Pie Roll,0,150,3,0,90,30,2,1.94
+21,Drinks,Diet Pepsi,0,0,0,0,0,0,0,12
+22,Drinks,Mountain Dew,0,160,0,0,0,44,0,12
+23,Drinks,Lipton Brisk Raspberry Iced Tea,0,80,0,0,0,20,0,12
+24,Drinks,Tropicana Lemonade,0,280,0,0,0,71,0,22

@@ -1,0 +1,136 @@
+/* Statistics.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Controls section */
+.statistics-controls {
+    display: flex;
+    flex-direction: column; /* Add this line */
+    align-items: center; /* Center align items horizontally */
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+/* Query section styling */
+.query-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.query-section label {
+    font-weight: bold;
+}
+
+.query-section select {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+/* Report section styling */
+.report-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.report-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #d82c2c; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.report-button:hover {
+    background-color: #b32424; /* Darker red on hover */
+}
+
+/* Table styling */
+.statistics-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.statistics-table th,
+.statistics-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.statistics-table th {
+    background-color: #d82c2c; /* Red background */
+    color: white;
+    font-weight: bold;
+}
+
+.statistics-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.statistics-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Chart container styling */
+.chart-container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .statistics-controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .statistics-table,
+    .chart-container {
+        width: 95%;
+    }
+
+    .query-section select {
+        width: 100%;
+    }
+
+    .report-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .report-button {
+        width: 100%;
+        text-align: center;
+    }
+}

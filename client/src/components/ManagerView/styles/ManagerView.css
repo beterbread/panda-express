@@ -1,0 +1,30 @@
+/* Center container for ManagerView buttons */
+.manager-buttons-container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Align buttons vertically in their container */
+  /* Remove height to prevent excessive vertical space */
+  gap: 10px; /* Space between buttons */
+  margin: 20px 0; /* Optional: Add some vertical margin */
+}
+
+/* Styles for ManagerView buttons */
+.manager-button {
+  width: 300px;
+  height: auto;
+  background-color: grey; /* Grey background */
+  color: white; /* White font */
+  font-weight: bold; /* Bold text */
+  border: none; /* Remove default border */
+  padding: 5px 10px; /* Reduced padding for size */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 14px; /* Adjust font size to match table */
+  text-align: center;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for ManagerView buttons */
+.manager-button:hover {
+  background-color: #555; /* Darker grey on hover */
+}

@@ -1,0 +1,20 @@
+meal_id,meal_name,meal_size,meal_type,meal_price
+1,Bowl,NULL,NULL,8.3
+2,Plate,NULL,NULL,9.8
+3,Bigger Plate,NULL,NULL,11.3
+4,Appetizers,Small,NULL,2
+5,Appetizers,Large,NULL,11.2
+6,Appetizers,Small,Apple Pie Roll,2
+7,Appetizers,Medium,Apple Pie Roll,6.2
+8,Appetizers,Large,Apple Pie Roll,8
+9,A La Carte,Small,Entree,5.2
+10,A La Carte,Medium,Entree,8.5
+11,A La Carte,Large,Entree,11.2
+12,A La Carte,Small,Entree Premium,6.7
+13,A La Carte,Medium,Entree Premium,11.5
+14,A La Carte,Large,Entree Premium,15.7
+15,A La Carte,Medium,Side,4.4
+16,A La Carte,Large,Side,5.4
+17,Drinks,Small,NULL,2.1
+18,Drinks,Medium,NULL,2.3
+19,Drinks,Large,NULL,2.5

@@ -1,0 +1,55 @@
+button {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 6.25rem; /* 100px converted to rem */
+  row-gap: 1.25rem; /* 20px converted to rem */
+  padding-top: 1.25rem; /* 20px converted to rem */
+}
+
+.menu-button {
+  width: 14.0625rem; /* 225px converted to rem */
+  height: 14.0625rem; /* 225px converted to rem */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensure content doesn't overflow */
+  border: 0.125rem solid #ccc; /* 2px converted to rem */
+  border-radius: 2rem; /* 10px converted to rem */
+  transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-button:hover {
+  transform: scale(1.05); 
+}
+
+.button-image {
+  width: 12.5rem; /* 200px converted to rem */
+  height: 12.5rem; /* 200px converted to rem */
+  object-fit: contain; /* Ensure the entire image is visible */
+  margin-bottom: 0.3125rem; /* 5px converted to rem */
+}
+ 
+a {
+  text-decoration: none;
+}
+
+.button-text {
+  text-align: center; /* Center the text */
+  font-size: 1rem; /* 16px converted to rem */
+  font-weight: bold;
+  padding-bottom: 0.625rem; /* 10px converted to rem */
+  text-decoration: none !important;
+}

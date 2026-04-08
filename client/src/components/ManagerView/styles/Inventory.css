@@ -1,0 +1,101 @@
+/* Inventory.css */
+
+/* Table styling */
+.inventory-table,
+.link-table {
+  margin: 0 auto; /* Center horizontally */
+  border-collapse: collapse;
+}
+
+.inventory-table th,
+.inventory-table td,
+.link-table th,
+.link-table td {
+  border: 2px solid black; /* Black borders and dividers */
+  text-align: center;
+  color: black; /* Inside text remains black */
+}
+
+/* Header styling */
+.inventory-table th,
+.link-table th {
+  background-color: #d82c2c; /* Red background color */
+  color: white; /* White text */
+  font-weight: bold;
+}
+
+/* Input fields styling */
+.inventory-form input,
+.link-table input[type="number"],
+.inventory-table input[type="text"],
+.inventory-table input[type="number"] {
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: auto;
+  border-radius: 30px;
+  height: 1rem;
+
+  box-sizing: border-box;
+}
+
+/* Modal styling */
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid black;
+  width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+/* Disabled input styling */
+.link-table input[disabled] {
+  background-color: #dcdcdc;
+  color: #7a7a7a;
+}
+
+
+/* Form styling */
+.inventory-form input {
+  margin-bottom: 5px;
+}
+
+.link-table input[type="number"] {
+  width: 80px;
+}
+
+.link-table th,
+.link-table td {
+  padding: 8px;
+}
+
+#inventory-container {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+#add-item-button {
+  width: 30rem;
+  margin: 2rem auto;
+}

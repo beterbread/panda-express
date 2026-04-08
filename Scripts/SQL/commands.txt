@@ -1,0 +1,16 @@
+NOTE: DO NOT DELETE create_tables.sql, no script to generate
+
+Copy and paste connection string into Linux terminal
+cd into SQL
+Copy and paste commands one by one
+
+\i create_allergen.sql
+\i create_customer.sql
+\i create_employee.sql
+\i create_ingredient.sql
+\i create_item.sql
+\i create_item_to_ingredient.sql
+\i create_menu.sql
+\i item_to_allergen.sql
+
+\i create_tables.sql

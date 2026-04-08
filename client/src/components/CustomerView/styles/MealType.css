@@ -1,0 +1,51 @@
+#meals-container {
+  margin: auto;
+}
+
+.back-button {
+  margin-top: 1rem;
+  margin-left: 0.1rem;
+  padding: 1rem;
+  border-radius: 30px !important;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  cursor: pointer;
+  background-color: #d1282e;
+}
+
+.order-button {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  height: 5rem;
+
+  position: fixed; /* FIXED POSITION FOR USER FRIENDLINESS */
+  bottom: 1rem;
+  left: 2rem;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d1282e;
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  height: 5rem;
+}
+
+.order-button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed; /*show a warning cursor */
+}

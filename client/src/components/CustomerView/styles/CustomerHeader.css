@@ -1,0 +1,80 @@
+/* Navigation bar */
+.header {
+  padding: .3rem;
+  background-color: #161615;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  border-bottom: .3rem solid #d1282e; 
+}
+
+/* Left side of the nav */
+.header-left {
+  display: flex;
+  align-items: center;
+  align-self: left;
+}
+
+/* Logo */
+.header-left .logo {
+  width: 48px; 
+  height: auto;
+}
+
+/* Page title */
+#page_title {
+  color: white;
+  margin-left: 5px;
+  font-size: 24px;
+}
+
+/* Right side of the nav */
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3px;
+}
+
+.header-right .icon {
+  width: 32px; 
+  height: auto;
+  cursor: pointer;
+}
+
+.account-popup {
+  position: absolute;
+  top: 4.3rem; /* adjust as needed */
+  right: .4rem;
+  background-color: #fff;
+  border: .1rem solid #d1282e;
+  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1);
+  padding: .8rem;
+  border-radius: 1rem;
+  z-index: 10;
+  width: 9rem;
+}
+
+.account-popup p {
+  font-size: 18px;
+  padding: .4rem 0;
+  font-weight: bold;
+  color: black;
+}
+
+.account-popup button {
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  padding: .5rem;
+  margin: .4rem 0;
+  border: none;
+  background-color: #d1282e;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.account-popup button:hover {
+  background-color: #b52126;
+}

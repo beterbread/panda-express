@@ -1,0 +1,15 @@
+#complete-container {
+  /* background-color: yellow; */
+  flex-direction: column;
+  align-items: center;
+}
+
+#finish-button {
+  /* background-color: blue; */
+  margin: 1rem;
+  width: 10rem;
+}
+
+#timeLeft-text {
+  color: #d1282e;
+}

@@ -1,0 +1,79 @@
+/* Employees.css */
+#employees-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+/* Table container styling */
+  /* Table styling */
+  #employee-table {
+    /* background-color: aqua; */
+    border-collapse: collapse;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  /* Form styling */
+  .employee-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust as needed */
+  }
+  
+  .employee-form input[type="text"] {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: .25rem auto;
+    border-radius: 30px;
+    height: 1rem;
+
+    box-sizing: border-box;
+  }
+  
+  .employee-form label {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .employee-form label input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  .employee-form button {
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Input fields in the table when editing */
+  .employee-table input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .employee-table input[type="checkbox"] {
+    margin-left: 5px;
+  }
+  
+  /* Button styling */
+  .add-employee-button,
+  .employee-table button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Position the "Add New Employee" button */
+  #add-employee-button {
+    width: 30rem;
+    margin: 2rem auto;
+  }
+  

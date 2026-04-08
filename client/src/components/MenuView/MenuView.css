@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.background {
+    background-color: white;
+    height: 100vh;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .animation-container {
+    overflow: hidden;
+    height: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .outer-box {
+    background-color: #d32f2f;
+    border-radius: 1.25rem;
+    padding: 3rem;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 4rem;
+  }
+
+  .nested-box {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    gap: 1rem;
+  }
+
+  .nested-outer-box {
+    background-color: #d32f2f;
+    border-radius: 1.25rem;
+    padding: 3rem;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 4rem;
+  }
+  
+  .title {
+    color: white;
+    font-size: 3.125rem;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .inner-box {
+    background-color: white;
+    border-radius: 0.9375rem;
+    padding: 1.25rem;
+    width: 100%;
+    height: calc(100% - 3rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+
+  .inner-box-entrees {
+    background-color: white;
+    border-radius: 0.9375rem;
+    padding: 1.25rem;
+    width: 100%;
+    height: calc(100% - 3rem);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+
+  .inner-box-size {
+    background-color: white;
+    border-radius: 0.9375rem;
+    padding: 1.25rem;
+    width: 100%;
+    height: calc(100% - 3rem);
+    font-size: 1.25rem;
+    box-sizing: border-box;
+  }
+
+  .section {
+    margin: 0 1rem;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 1rem;
+  }
+
+  .section ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .section ul li span {
+    font-size: 1.8rem;
+  }
+
+  .calories {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 0.9375rem;
+  }
+
+  .sizes {
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 0.5rem;
+  }
+
+  .sizeInfo p {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    color: black;
+    margin-top: 0.5rem;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .menu-item > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .menu-item > div > .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .menu-item:first-child {
+    margin-top: 1rem;
+  }
+  
+  .menu-item:last-child {
+    margin-bottom: 1rem;
+  }
+  
+  .menu-item strong {
+    font-weight: bold;
+  }
+  
+  .menu-item span {
+    color: #333;
+    margin-right: 0.5rem;
+    text-align: right;
+  }
+  
+  .meal-image {
+    width: 12rem;
+    height: 9rem;
+    margin-right: 0.625rem;
+  }
+
+  .meal-image2 {
+    width: 40rem;
+    height: 10rem;
+    margin-top: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .extra-charge {
+    font-size: 0.8em;
+  }
+
+  hr {
+    border: 0;
+    border-top: 0.125rem solid black;
+    margin: 1.875rem 0;
+  }

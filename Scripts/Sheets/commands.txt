@@ -1,0 +1,10 @@
+NOTE: Deleting/Replacing .csv files is fine
+
+Copy and paste connection string into Linux terminal
+cd into Sheets
+Copy and paste commands
+
+\copy orders from 'orders.csv' CSV HEADER
+\copy payment from 'payment.csv' CSV HEADER
+\copy order_item from 'order_item.csv' CSV HEADER
+\copy order_menu from 'order_menu.csv' CSV HEADER

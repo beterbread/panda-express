@@ -1,0 +1,113 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("./assets/background.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.app header {
+  text-align: center;
+}
+
+/* Weather widget */
+/******************/
+.app .weather-icon {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  border: 0.3125rem solid #d1282e;
+  padding: 0.4rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.app .weather-icon:hover {
+  transform: translateY(-2px);
+}
+
+.app .weather-icon img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.app .weather-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  /* Height of weather icon + .5rem (extra gap) */
+  top: calc(5.425rem + 2px + 1rem);
+  left: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app .weather-widget h3,
+.app .weather-widget p {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+}
+/******************/
+/******************/
+
+.app .logo {
+  width: 20rem;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.app nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+
+.app button {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 8rem;
+  height: 8rem;
+  border: 0.3125rem solid #d1282e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.4;
+  transition: transform 0.2s;
+}
+
+.app button:hover {
+  transform: translateY(-2px);
+}
+
+.app .translate-button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  border: 0.3125rem solid #d1282e;
+  padding: 0.4rem;
+  font-weight: bold;
+  border-radius: 5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+  height: 4rem;
+  background-color: white;
+  color: black;
+}
+
+.app .translate-button:hover {
+  transform: translateY(-2px);
+}

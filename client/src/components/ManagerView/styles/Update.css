@@ -1,0 +1,57 @@
+/* Update.css */
+
+.update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Table container styling */
+
+  
+  /* Table styling */
+  .update-table {
+    width: 100%; /* Table fills the container */
+    border-collapse: collapse;
+  }
+  
+  .update-table th,
+  .update-table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    color: black;
+    vertical-align: top; /* Ensure content aligns to the top */
+  }
+  
+  /* Header styling */
+  .update-table th {
+    background-color: #d82c2c;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Form styling */
+  .update-form {
+    margin-bottom: 5px;
+  }
+  
+  .update-form input {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: .25rem auto;
+    border-radius: 30px;
+    height: 1rem;
+
+    box-sizing: border-box;
+  }
+
+  .edit-table-input {
+    border: 1px solid black;
+    width: 5rem;
+    padding: .5rem;
+    margin: 0;
+  }
