@@ -4,17 +4,24 @@
 
 This project was developed as part of **CSCE 331 – Foundations of Software Engineering** at **Texas A&M University** during **Fall 2024**. The work was completed by our dedicated team:  
 
-- Morgan McLean  
-- Peter Kim  
-- Eden Kim  
-- Mehul Jain  
-- Sirish Patibanda  
+- **Morgan McLean**  
+- **Peter Kim** 
+- **Eden Kim**
+- **Mehul Jain**  
+- **Sirish Patibanda**  
 
 The purpose of this repository is to showcase our project in working order. The original repository was forked from the class organization and could not be made public. Additionally, the university-hosted database used during the course was shut down after the semester.  
 
-To maintain a functional demonstration, I (Peter Kim) hosted a **PostgreSQL database on Supabase**, ensured that all external API keys remain active, and removed any sensitive data or vulnerabilities that should not be public. Minimal changes were made to preserve the original structure and functionality of the project.  
+To maintain a functional demonstration, I (Peter Kim) hosted a PostgreSQL database on Supabase, ensured that all external API keys remain active, and removed any sensitive data or vulnerabilities that should not be public. Minimal changes were made to preserve the original structure and functionality of the project.  
 
 The live application is fully functional and can be explored for demonstration purposes, highlighting the original team’s design and implementation efforts.
+
+### Demo Credentials for Employee and Manager Login
+
+To explore the Employee and Manager interfaces, you can use the following demo accounts:
+
+- Employee Login: ID `18668463`  
+- Manager Login: ID `13008215`  
 
 ## Description
 Our project is a Software as a Service (SaaS) solution designed to streamline order management for restaurants. By prioritizing accessibility and user-friendliness, we aim to serve employees, customers, and managers with diverse technical skills and accessibility needs. This system provides tailored interfaces for each user group, ensuring a seamless experience for everyone involved.
@@ -36,4 +43,4 @@ Our project is a Software as a Service (SaaS) solution designed to streamline or
 - **Google Authentication**: Supports Google authentication for efficient registration and log in.
 - **Allergen and Nutrition Information**: Display allergen and nutritional details for customer awareness.
 - **Chatbot**: Assists customers by answering frequently asked questions and providing support.
-- **Weather widget**: Displays interesting weather information in a visually appealing widget.
+- **Weather Widget**: Displays interesting weather information in a visually appealing widget.
