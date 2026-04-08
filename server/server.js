@@ -10,8 +10,10 @@ import bcrypt from "bcrypt";
 
 const app = express();
 app.use(cors({
-  origin: "https://panda-express-gamma.vercel.app",
-  credentials: true,
+  origin: [
+    "https://panda-express-gamma.vercel.app",
+    "http://localhost:5173"
+  ]
 }));
 app.use(express.json());
 

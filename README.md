@@ -20,8 +20,8 @@ The live application is fully functional and can be explored for demonstration p
 
 To explore the Employee and Manager interfaces, you can use the following demo accounts:
 
-- Employee Login: ID `18668463`  
-- Manager Login: ID `13008215`  
+- Employee Login: ID `10244360`  
+- Manager Login: ID `16581082`  
 
 ## Description
 Our project is a Software as a Service (SaaS) solution designed to streamline order management for restaurants. By prioritizing accessibility and user-friendliness, we aim to serve employees, customers, and managers with diverse technical skills and accessibility needs. This system provides tailored interfaces for each user group, ensuring a seamless experience for everyone involved.

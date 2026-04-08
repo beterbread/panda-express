@@ -17,12 +17,11 @@ with open(sql_file_path, 'w') as f:
     '''
     f.write(create_table_query + '\n\n')
 
-    # Changed to hashed passwords instead of plain text
-    # for index, row in df.iterrows():
-    #     insert_query = f'''
-    #     INSERT INTO customer (customer_id, customer_name, customer_email, customer_password)
-    #     VALUES ({row['customer_id']}, '{row['customer_name']}', '{row['customer_email']}', '{row['customer_password']}');
-    #     '''
-    #     f.write(insert_query + '\n')
+    for index, row in df.iterrows():
+        insert_query = f'''
+        INSERT INTO customer (customer_id, customer_name, customer_email, customer_password)
+        VALUES ({row['customer_id']}, '{row['customer_name']}', '{row['customer_email']}', '{row['customer_password']}');
+        '''
+        f.write(insert_query + '\n')
 
 print(f"SQL file '{sql_file_path}' created successfully.")
