@@ -1,5 +1,7 @@
 # Panda Express Web Application
 
+👉 [Live demo](panda-express-gamma.vercel.app/)
+
 ## Author Note
 
 This project was developed as part of **CSCE 331 – Foundations of Software Engineering** at **Texas A&M University** during **Fall 2024**. The work was completed by our dedicated team:  
