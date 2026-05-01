@@ -1,6 +1,6 @@
 # Panda Express Web Application
 
-👉 [Live demo](panda-express-gamma.vercel.app/)
+👉 [Live demo](https://panda-express-gamma.vercel.app/)
 
 ## Author Note
 
